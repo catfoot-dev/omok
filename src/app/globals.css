@@ -1,0 +1,40 @@
+:root {
+  color-scheme: light;
+  font-family:
+    'Pretendard Variable', 'Pretendard', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic',
+    sans-serif;
+  background-color: #1a140f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: #838383;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.5), transparent 42%),
+    linear-gradient(180deg, rgba(134, 134, 134, 0.7), rgba(60, 60, 60, 0.72));
+}
+
+main {
+  min-height: 100vh;
+  padding: 32px 20px 48px;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

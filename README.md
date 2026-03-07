@@ -1,24 +1,39 @@
-# 오목 게임
+# 오목
 
-![OMok](/public/imgs/logo.png)
+`Next.js App Router` 기반의 오목 게임입니다. 로컬 2인 모드와 AI 대전 모드를 지원합니다.
 
-오목 게임
-
-## 개요
-
-오목 게임입니다.
-
-## 설치 방법
+## 설치
 
 ```sh
-npm install
+pnpm install
 ```
 
-## 실행 방법
+## 실행
 
 ```sh
-npm start
+pnpm dev
 ```
+
+브라우저에서 `http://localhost:3000`을 열면 됩니다.
+
+## 스크립트
+
+```sh
+pnpm dev
+pnpm build
+pnpm start
+pnpm lint
+pnpm typecheck
+pnpm test
+pnpm format
+pnpm format:check
+```
+
+## 개발 원칙
+
+- 패키지 매니저는 `pnpm`만 사용합니다.
+- 코드 포맷팅은 `Prettier`, 정적 검사는 `ESLint`로 분리합니다.
+- 게임 규칙과 AI 계산은 순수 함수로 유지해서 클라이언트와 API가 같은 로직을 공유합니다.
 
 ## 기여하기
 
