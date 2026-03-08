@@ -2,7 +2,7 @@
 
 `Next.js App Router` 기반의 오목 게임입니다. 로컬 2인 모드와 AI 대전 모드를 지원합니다.
 
-![demo screenshot](https://github.com/catfoot-dev/omok/blob/main/public/img/demo.png?raw=true)
+![demo screenshot](https://github.com/catfoot-dev/omok/blob/main/public/imgs/demo.png?raw=true)
 
 ## 설치
 
